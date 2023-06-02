@@ -232,12 +232,19 @@ main form input,select {
     .div-valor {
       font-size: 1.2rem;
       margin-left: 40px;
+      text-shadow: none;
+    }
+    .div-valor span {
+      text-shadow: none;
     }
     h1 {
       font-size: 1rem;
     }
     main .valor {
       margin-right: 15px;
+    }
+    main form input {
+      font-size: 1rem;
     }
   }
 
