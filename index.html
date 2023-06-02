@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Ejercicio Js 2</title>
+</head>
+<body>
+  <header>
+    <h1>
+      ☆ Esta es la <i>página</i> N°1 de ejercicios. <strong>Js</strong>
+    </h1>
+    <h2>
+      calculadora
+    </h2>
+  </header>
+<main>
+
+  <form>
+    <div>
+      <span class="valor">Valor 1:</span><input placeholder="Escribí aquí" type="text" id="value1">
+    </div>
+    <div>
+      <span class="valor">Valor 2:</span><input placeholder="Escribí aquí" type="text" id="value2">
+    </div>
+    <div>
+      <span class="valor">Operador:</span>
+      <select id="operator">
+        <option value="add">Suma</option>
+        <option value="min">Resta</option>
+        <option value="mul">Multiplicación</option>
+        <option value="div">División</option>
+      </select>
+    </div>
+    <button type="button" onclick="calc()"><span>Calculate</span></button>
+  </form>
+
+  <div class="div-valor">El resultado es: <span id="result"></span></div>
+
+</main>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

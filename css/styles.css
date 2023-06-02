@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to top, white 30%, rgb(71, 71, 71));
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+header h1 {
+  background-image: linear-gradient(45deg,hsl(194, 100%, 37%),hsl(194, 100%, 42%),hsl(194, 100%, 47%),hsl(194, 100%, 52%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 400%;
+    animation: color 2s infinite alternate;
+}
+
+@keyframes color {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
+}
+
+header h2 {
+  margin-top: 20px;
+  font-size: 110px;
+	font-family: Impact, Charcoal, sans-serif;
+  text-transform: capitalize;
+	letter-spacing: 4px;
+	background-image: url("../img/mask-image8.jpg");
+	background-position: 0px 0px;
+	animation: animatedBackground 10s linear infinite normal;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+  filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.549));
+}
+
+@keyframes animatedBackground {
+	0% { background-position: 0 0 }
+	100% { background-position: 500px 0 }
+}
+
+main {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+main form  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+main .valor {
+  font-size: 3rem;
+  display: inline-block;
+  margin-right: 40px;
+  color: #707070;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(104,104,104),
+                1px 1px 0 rgb(96,96,96),
+                2px 2px 0 rgb(88,88,88),
+                3px 3px 0 rgb(80,80,80),
+                4px 4px  0 rgb(72,72,72),
+                5px 5px 4px rgba(0,0,0,0.44),
+                5px 5px 1px rgba(0,0,0,0.5),
+                0px 0px 4px rgba(0,0,0,.2);
+}
+
+.div-valor {
+  font-size: 3rem;
+  display: inline-block;
+  margin-right: 40px;
+  color: #707070;
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 0px 0px 0 rgb(104,104,104),
+                1px 1px 0 rgb(96,96,96),
+                2px 2px 0 rgb(88,88,88),
+                3px 3px 0 rgb(80,80,80),
+                4px 4px  0 rgb(72,72,72),
+                5px 5px 4px rgba(0,0,0,0.44),
+                5px 5px 1px rgba(0,0,0,0.5),
+                0px 0px 4px rgba(0,0,0,.2);
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 0rem 2rem 2rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+main div span {
+  font-size: 5rem;
+}
+
+main form input,select {
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(137, 137, 137);
+  padding: 10px 0 10px 20px;
+  border-radius: 35px;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+
+  main form button {
+    display: block;
+    outline: none;
+    cursor: pointer;
+    padding: .5rem 1rem .9rem 1rem;
+    background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border-radius: 30px;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    width: fit-content;
+    margin-left: 40%;
+  }
+
+  main form button span {
+    font-size: 2rem;
+    font-weight: bold;
+    background-image: linear-gradient(45deg,hsl(194, 100%, 13%),hsl(194, 100%, 17%),hsl(194, 100%, 22%),hsl(194, 100%, 27%),hsl(194, 100%, 32%),hsl(194, 100%, 37%),hsl(194, 100%, 42%),hsl(194, 100%, 47%),hsl(194, 100%, 52%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 400%;
+    animation: color 2s infinite alternate;
+  }
+
+  main form button:hover {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+  }
+  
+  main form button:active {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+  
+  main form button:focus {
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+  }
+
+  @media (max-width:1464px) {
+    .div-valor {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width:1324px) {
+    .div-valor span {
+      font-size: 2rem;
+    }
+    .div-valor {
+      padding-bottom: 1rem;
+    }
+  }
+
+  @media (max-width:1278px) {
+    main {
+      flex-direction: column;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    main form button {
+      margin-left: 35%;
+    }
+  }
+
+  @media (max-width:968px) {
+    h1 {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width:802px) {
+    main form input {
+      max-width: 200px;
+    }
+    
+    main form select {
+      font-size: 1.5rem;
+    }
+    header h2 {
+      font-size: 4rem;
+    }
+  }
+
+  @media (max-width:660px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    main .valor {
+      font-size: 2rem;
+    }
+    main form button {
+      margin-left: 30%;
+    }
+  }
+
+  @media (max-width:524px) {
+    .div-valor {
+      font-size: 1.2rem;
+      margin-left: 40px;
+    }
+    h1 {
+      font-size: 1rem;
+    }
+    main .valor {
+      margin-right: 15px;
+    }
+  }
+
+  @media (max-width:492px) {
+    main form div select {
+      font-size: 1rem;
+    }
+
+  }
+
+  @media (max-width:450px) {
+    main form input {
+      max-width: 150px;
+    }
+    main form select {
+      max-width: 110px;
+    }
+    .div-valor span {
+      font-size: 1.3rem;
+    }
+    .div-valor {
+      padding: .5rem 1rem 1rem .3rem;
+    }
+  }
+
+  @media (max-width:410px) {
+    main {
+      padding: 2rem 1rem;
+    }
+    header h2 {
+      font-size: 2.5rem;
+    }
+  }
