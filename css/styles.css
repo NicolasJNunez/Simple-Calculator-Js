@@ -252,7 +252,9 @@ main form input,select {
     main form div select {
       font-size: 1rem;
     }
-
+    main form button {
+      margin-left: 25%;
+    }
   }
 
   @media (max-width:450px) {
