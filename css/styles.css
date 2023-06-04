@@ -193,7 +193,11 @@ main form input,select {
       font-size: 3rem;
     }
     main form button {
-      margin-left: 35%;
+      margin-left: 0;
+      align-self: center;
+    }
+    .div-valor {
+      margin-right: 0;
     }
   }
 
@@ -223,9 +227,6 @@ main form input,select {
     main .valor {
       font-size: 2rem;
     }
-    main form button {
-      margin-left: 30%;
-    }
     main .valor {
         text-shadow: none;
         text-shadow: 0 0 0 rgb(104,104,104),
@@ -246,7 +247,6 @@ main form input,select {
   @media (max-width:524px) {
     .div-valor {
       font-size: 1.2rem;
-      margin-left: 40px;
     }
     h1 {
       font-size: 1rem;
@@ -262,9 +262,6 @@ main form input,select {
   @media (max-width:492px) {
     main form div select {
       font-size: 1rem;
-    }
-    main form button {
-      margin-left: 25%;
     }
   }
 
