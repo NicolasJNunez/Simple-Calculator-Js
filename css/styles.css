@@ -226,6 +226,21 @@ main form input,select {
     main form button {
       margin-left: 30%;
     }
+    main .valor {
+        text-shadow: none;
+        text-shadow: 0px 0px 0 rgb(104,104,104),
+                    1px 1px 0 rgb(96,96,96),
+                    2px 2px 0 rgb(88,88,88),
+                    0px 0px 4px rgba(0,0,0,.2);
+    }
+    
+    .div-valor {
+        text-shadow: none;
+        text-shadow: 0px 0px 0 rgb(104,104,104),
+                    1px 1px 0 rgb(96,96,96),
+                    2px 2px 0 rgb(88,88,88),
+                    0px 0px 4px rgba(0,0,0,.2);
+    }
   }
 
   @media (max-width:524px) {
